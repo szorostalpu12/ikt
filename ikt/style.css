@@ -1,0 +1,67 @@
+BODY {
+  font-family: Trebuchet MS;
+  margin: 20px;
+  background-color: #600040;
+}
+
+H1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.myTimetable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.myTimetable THEAD {
+  color: #ffffff;
+}
+
+.myTimetable TBODY {
+  background-color: blueviolet;
+}
+
+.myTimetable TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: #ff0066;
+  font-weight: bold;
+}
+
+.break,
+.lunch {
+  background-color: #ff0066 !important;
+  font-style: italic;
+}
+
+.subject {
+  font-size: 12pt;
+  margin-bottom: 4px;
+}
+
+.room {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.flag {
+  margin: 50px;
+  position: center;
+  width: 1785px;
+  height: 400px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.hungary {
+  background: linear-gradient(#cf2436 33%, #fff 33%, #fff 66%, #45714e 0);
+}

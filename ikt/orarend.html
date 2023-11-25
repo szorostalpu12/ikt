@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarend</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+       
+
+  <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcoral;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <ul>
+    <li><a class="active" href="index.html">Kezdőlap</a></li>
+    <li><a href="kollazs.html">Kollázs kép</a></li>
+    <li><a href="orarend.html">Órarend</a></li>
+  </ul>
+
+
+<H1>Órarend</H1>
+<TABLE class="myTimetable"> 
+  <THEAD>
+    <TR>
+      <TH></TH>
+      <TH>Hétfő</TH>
+      <TH>Kedd</TH>
+      <TH>Szerda</TH>
+      <TH>Csütörtök</TH>
+      <TH>Péntek</TH>     
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TD>0. óra(7:15 - 8:00)</TD>
+<TD>        
+  <div class="subject"></div>
+  <div class="room"></div>
+</TD>
+<TD>        
+  <div class="subject"></div>
+  <div class="room"></div>
+</TD>
+<TD>        
+  <div class="subject">Testnevelés</div>
+  <div class="room">Tornaterem</div>
+</TD>
+<TD>        
+  <div class="subject">Angol</div>
+  <div class="room">111</div>
+</TD>
+<TD>        
+  <div class="subject"></div>
+  <div class="room"></div>
+</TD>
+</TR>
+    <TR>
+      <TD>1. óra(8:00 - 8:45)</TD>
+      <TD>
+        <div class="subject">Digitális kultúra</div>
+        <div class="room">309</div>
+      </TD>
+      <TD>
+        <div class="subject"></div>
+        <div class="room"></div>
+      </TD>
+      <TD>        
+        <div class="subject">Testnevelés</div>
+        <div class="room">Tornaterem</div>
+      </TD>
+      <TD>        
+        <div class="subject">Angol</div>
+        <div class="room">111</div>
+      </TD>
+       <TD>        
+         <div class="subject">Magyar nyelv és irodalom</div>
+        <div class="room">111</div>
+      </TD>     
+    </TR>
+    <TR>
+      <TD>2. óra(8:55 - 9:40)</TD>
+      <TD>        
+        <div class="subject">Digitális kultúra</div>
+        <div class="room">309</div>
+      </TD>
+      <TD>        
+        <div class="subject">Magyar nyelv és irodalom</div>
+        <div class="room">103</div>
+      </TD>
+      <TD>        
+        <div class="subject">Történelem</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Programozási alapok</div>
+        <div class="room">201</div>
+      </TD>
+      <TD>        
+        <div class="subject">Angol</div>
+        <div class="room">111</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>3. Óra(9:50 - 10:35)</TD>
+      <TD>        
+        <div class="subject">Történelem</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Magyar nyelv és irodalom</div>
+        <div class="room">103</div>
+      </TD>
+      <TD>        
+        <div class="subject">Munkavállalói ismeretek</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Programozási alapok</div>
+        <div class="room">201</div>
+      </TD>
+      <TD>        
+        <div class="subject">Testnevelés</div>
+        <div class="room">Udvar</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>4. Óra(10:45 - 11:30)</TD>
+      <TD>        
+        <div class="subject">Testnevelés</div>
+        <div class="room">Tornaterem</div>
+      </TD>
+      <TD>        
+        <div class="subject">Matematika</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Magyar nyelv és irodalom</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Komplex természettudomány</div>
+        <div class="room">25</div>
+      </TD>
+      <TD>        
+        <div class="subject">Matematika</div>
+        <div class="room">111</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>5. óra(11:40 - 12:25)</TD>
+      <TD>        
+        <div class="subject">Matematika</div>
+        <div class="room">212</div>
+      </TD>
+      <TD>        
+        <div class="subject">Matematika</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Angol</div>
+        <div class="room">214</div>
+      </TD>
+      <TD>        
+        <div class="subject">Matematika(informatika)</div>
+        <div class="room">111</div>
+      </TD>
+      <TD>        
+        <div class="subject">Osztályfőnöki</div>
+        <div class="room">B18</div>
+      </TD>
+      <TR>
+        <TD colspan="6" class="Ebéd">Ebéd</TD>
+      </TR>
+    </TR>
+    <TD>6. óra(12:45 - 13:30)</TD>
+    <TD>        
+      <div class="subject">IKT projektmunka I.</div>
+      <div class="room">310</div>
+    </TD>
+    <TD>        
+      <div class="subject">informatika és távközlési alapok</div>
+      <div class="room">310</div>
+    </TD>
+    <TD>        
+      <div class="subject">Komplex természettudomány</div>
+      <div class="room">25</div>
+    </TD>
+    <TD>        
+      <div class="subject"></div>
+      <div class="room"></div>
+    </TD>
+    <TD>        
+      <div class="subject">Történelem</div>
+      <div class="room">111</div>
+    </TD>
+  </TR>
+  <TD>7. óra(13:35 - 14:20)</TD>
+  <TD>        
+    <div class="subject">Magyar nyelv és irodalom</div>
+    <div class="room">111</div>
+  </TD>
+  <TD>        
+    <div class="subject">informatika és távközlési alapok</div>
+    <div class="room">310</div>
+  </TD>
+  <TD>        
+    <div class="subject"></div>
+    <div class="room"></div>
+  </TD>
+  <TD>        
+    <div class="subject"></div>
+    <div class="room"></div>
+  </TD>
+  <TD>        
+    <div class="subject"></div>
+    <div class="room"></div>
+  </TD>
+</TR>
+<TD>8. óra(14:25 - 15:10)</TD>
+<TD>        
+  <div class="subject">Komplex természettudomány</div>
+  <div class="room">25</div>
+</TD>
+<TD>        
+  <div class="subject">informatika és távközlési alapok</div>
+  <div class="room"></div>
+</TD>
+<TD>        
+  <div class="subject"></div>
+  <div class="room"></div>
+</TD>
+<TD>        
+  <div class="subject"></div>
+  <div class="room"></div>
+</TD>
+<TD>        
+  <div class="subject"></div>
+  <div class="room"></div>
+</TD>
+</TR>
+   </TBODY>
+  </TABLE>
+
+
+
+</body>
+</html>
